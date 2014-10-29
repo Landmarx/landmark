@@ -1,0 +1,32 @@
+{
+    "name": "landmarx/landmark",
+    "type": "library",
+    "description": "landmark libraries for the landmarx system.",
+    "keywords": [
+        "landmark"
+    ],
+    "homepage": "http://landmarx.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Landmarx\\Component\\Landmark\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}
